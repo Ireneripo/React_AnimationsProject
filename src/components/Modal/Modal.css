@@ -19,9 +19,25 @@
 }
 
 .ModalClosed {
-  -webkit-animation: closeModal 0.4s ease-out forwards;
-  animation: closeModal 0.4s ease-out forwards;
+  -webkit-animation: closeModal 1s ease-out forwards;
+  animation: closeModal 1s ease-out forwards;
 }
+
+/* .fade-slide-enter {
+}
+
+.fade-slide-enter-active {
+  -webkit-animation: openModal 0.4s ease-out forwards;
+  animation: openModal 0.4s ease-out forwards;
+}
+
+.fade-slide-exit {
+}
+
+.fade-slide-exit-active {
+  -webkit-animation: closeModal 1s ease-out forwards;
+  animation: closeModal 1s ease-out forwards;
+} */
 
 @-webkit-keyframes openModal {
   0% {
